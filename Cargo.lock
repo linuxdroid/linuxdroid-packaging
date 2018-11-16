@@ -952,7 +952,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "termux-packaging"
+name = "linuxdroid-packaging"
 version = "0.1.0"
 dependencies = [
  "ar 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",

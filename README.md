@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/termux/termux-packaging.svg?branch=master)](https://travis-ci.org/termux/termux-packaging)
+[![Build Status](https://travis-ci.org/linuxdroid/linuxdroid-packaging.svg?branch=master)](https://travis-ci.org/linuxdroid/linuxdroid-packaging)
 
-# Termux packaging tools
-This project contains packaging tools for Termux written in Rust.
+# Linuxdroid packaging tools
+This project contains packaging tools for Linuxdroid written in Rust.
 
 *NOTE*: This is my first Rust code, so suggestions for improvements are very welcome!
 

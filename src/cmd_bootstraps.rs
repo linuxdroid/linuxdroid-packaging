@@ -121,7 +121,7 @@ pub fn create(output: &str) {
         "readline",
         "ncurses",
         "command-not-found",
-        "termux-tools",
+        "linuxdroid-tools",
         // Needed for bin/sh:
         "dash",
         // For use by dpkg and apt:
@@ -142,10 +142,10 @@ pub fn create(output: &str) {
         "libgcrypt",
         "libgpg-error",
         "libbz2",
-        // termux-exec fixes shebangs (and apt depends on it):
-        "termux-exec",
-        // Everyone needs a working "am" (and termux-tools depends on it):
-        "termux-am",
+        // linuxdroid-exec fixes shebangs (and apt depends on it):
+        "linuxdroid-exec",
+        // Everyone needs a working "am" (and linuxdroid-tools depends on it):
+        "linuxdroid-am",
         // For package management:
         "dpkg",
         "apt",

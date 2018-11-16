@@ -17,12 +17,12 @@ mod cmd_notfound;
 mod deb_file;
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "termux-packaging", author = "")]
+#[structopt(name = "linuxdroid-packaging", author = "")]
 #[structopt(raw(setting = "structopt::clap::AppSettings::ColoredHelp"))]
-/// Termux packaging tools.
+/// Linuxdroid packaging tools.
 enum Opt {
     #[structopt(name = "bootstraps", author = "")]
-    /// Create bootstrap zips using packages from termux.net
+    /// Create bootstrap zips using packages from linuxdroid.net
     Bootstraps {
         /// Output directory to create the zip files in
         directory: String,

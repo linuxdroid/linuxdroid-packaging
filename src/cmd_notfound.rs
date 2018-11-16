@@ -54,7 +54,7 @@ impl deb_file::DebVisitor for CommandsNotFoundVisitor {
         let pp = file.path().unwrap();
         let file_path = pp.to_str().unwrap();
 
-        if file_path.starts_with("./data/data/com.termux/files/usr/bin/") {
+        if file_path.starts_with("./data/data/com.linuxdroid/files/usr/bin/") {
             if self.first_file {
                 self.first_file = false;
                 let line: &str = &format!("\"{}\",\n", &mut self.current_package);

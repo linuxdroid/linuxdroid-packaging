@@ -9,7 +9,7 @@ pub struct Package {
 impl Package {
     pub fn package_url(&self) -> String {
         return format!(
-            "https://termux.net/{}",
+            "https://linuxdroid.net/{}",
             self.fields.get("Filename").expect("No 'Filename")
         );
     }
@@ -17,7 +17,7 @@ impl Package {
 
 pub fn fetch_repo(arch: &str) -> HashMap<String, Package> {
     let url = format!(
-        "https://termux.net/dists/stable/main/binary-{}/Packages",
+        "https://linuxdroid.net/dists/stable/main/binary-{}/Packages",
         arch
     );
 

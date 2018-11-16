@@ -1,5 +1,5 @@
 [package]
-name = "termux-packaging"
+name = "linuxdroid-packaging"
 version = "0.1.0"
 authors = ["Fredrik Fornwall <fredrik@fornwall.net>"]
 
